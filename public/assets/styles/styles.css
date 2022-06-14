@@ -25,3 +25,22 @@ li a:hover {
 .active{
     background-color: #FD5D5D;
 }
+.firstSection{
+    height: 30vw;
+    background-image: url('../images/Atencion_medica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondSection{
+    float: right;
+    text-align: center;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    width: 30vw;
+    border-radius: 40px;
+    font-size: 1.5vw;
+    background-color: rgba(0, 147, 171, 0.80);
+}
+h2{
+    color: whitesmoke;
+}

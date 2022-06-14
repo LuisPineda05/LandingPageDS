@@ -1,0 +1,58 @@
+img{
+    float: left;
+    height: 46px;
+    vertical-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0093AB;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #006E80;
+}
+.active{
+    background-color: #FD5D5D;
+}
+.firstSection{
+    height: 30vw;
+    background-image: url('../images/Atencion_medica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondSection{
+    float: right;
+    text-align: center;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    width: 30vw;
+    border-radius: 40px;
+    font-size: 1.5vw;
+    background-color: rgba(0, 147, 171, 0.80);
+}
+h2{
+    color: whitesmoke;
+}
+button{
+    background-color: #FD5D5D;
+    border: outset #FD5D5D;
+    border-radius: 20px;
+    font-size: 1.5vw;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: rgba(228, 68, 68, 1);
+}

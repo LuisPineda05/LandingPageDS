@@ -1,3 +1,8 @@
+h1{
+    text-align: center;
+    font-family: poppins;
+}
+
 .card{
     width: 300px;
     height: 400px;
@@ -11,6 +16,8 @@
     cursor: pointer;
     transition: all .25s ease;
     backface-visibility: hidden;
+    float: left;
+    margin-left: 150px;
 }
 .card:hover{
     transform: scale(.9);

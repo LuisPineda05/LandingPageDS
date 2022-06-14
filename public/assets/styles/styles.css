@@ -39,6 +39,41 @@ h1 {
 
 }
 
+.filter img{
+    cursor: default;
+    width: 500px;
+    height: 100%;
+    z-index: 0;
+    transition: all .25s ease;
+    transform: scale(1.55);
+    -webkit-filter: blur(15px);
+}
+
+.filter:hover img{
+    transition: all .25s ease;
+    transform: scale(1.10);
+    -webkit-filter: blur(0px) opacity(80%);
+    border-color: black;
+}
+
+.filter h2{
+    z-index: 30;
+    position: absolute;
+    bottom: 115px;
+    color: ghostwhite;
+    font-family: poppins;
+    justify-content: flex-end;
+    transform: scale(2.0);
+    text-align: center;
+}
+
+.filter:hover h2 {
+
+    transition: all .25s ease;
+    transform: scale(1.0);
+    bottom: 10px;
+}
+
 
 
 

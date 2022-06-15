@@ -76,13 +76,18 @@ html {
     scroll-behavior: smooth !important;
 }
 
-
-
 h1 {
     font-size: 30px;
     text-align: center;
     font-family: poppins;
     padding: 50px;
+}
+
+.patientServices{
+    background-color: #0093AB;
+}
+.doctorServices{
+    background-color: #0093AB;
 }
 
 .filter {
@@ -151,7 +156,7 @@ h1 {
 
 .btn button {
     position: relative;
-    background: darkcyan;
+    background: #FD5D5D;
     color: white;
     display: flex;
     padding: 1rem 2rem;
@@ -201,7 +206,7 @@ h1 {
 
 #Information {
     /*margin-top: 450px;*/
-    border: purple solid;
+    border-top: white solid;
     height: 10vw;
     background-color: #0093AB;
 
@@ -294,7 +299,6 @@ h1 {
 
 
 .cards{
-    border: blue solid;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -309,7 +313,6 @@ h1 {
     height: 400px;
     margin: 2vw;
     /*background: #ffffff;*/
-    border: red solid;
     border-radius: 20px;
     overflow: hidden;
     position: relative;

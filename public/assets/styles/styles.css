@@ -388,3 +388,22 @@ footer{
 .footer-menu ul li a:hover {
     color: black;
 }
+
+
+.footer-bottom {
+    background: #29486a;
+    padding: 5px;
+    text-align: center;
+}
+.footer-bottom p{
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a{
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}

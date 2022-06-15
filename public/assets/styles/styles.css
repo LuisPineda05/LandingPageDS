@@ -361,3 +361,30 @@ footer{
     border-radius: 50%;
     width: 35px;
 }
+
+.footer-menu {
+    all: unset;
+    margin-bottom: 20px;
+}
+
+.footer-menu ul {
+    all: unset;
+    display: flex;
+}
+
+.footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a{
+    color: #cfd2d6;
+    border: 1.3px solid white;
+    padding: 6px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: black;
+}

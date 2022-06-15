@@ -58,6 +58,7 @@ button:hover{
     background-color: rgba(228, 68, 68, 1);
 }
 
+/* */
 
 section h1.title{
     text-align: center;
@@ -85,9 +86,11 @@ h1 {
 
 .patientServices{
     background-color: #0093AB;
+    padding-top: 40px;
 }
 .doctorServices{
     background-color: #0093AB;
+    padding-top: 40px;
 }
 
 .filter {
@@ -206,7 +209,7 @@ h1 {
 
 #Information {
     /*margin-top: 450px;*/
-    border-top: white solid;
+    /*border-top: white solid;*/
     height: 10vw;
     background-color: #0093AB;
 
@@ -303,7 +306,8 @@ h1 {
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: center;
-    background-color: #0093AB;
+    /*background-color: #0093AB;*/
+    background-color: white;
     /*margin: auto;*/
     /*display: inline-block;*/
 }
@@ -312,21 +316,21 @@ h1 {
     width: 300px;
     height: 400px;
     margin: 2vw;
-    /*background: #ffffff;*/
+    background: #ffffff;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
 
-    /*display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center;*/
+    justify-content: center;
 
     cursor: pointer;
     transition: all .25s ease;
     backface-visibility: hidden;
-    /*float: left;*/
-    /*margin-left: 150px;*/
-    /*margin: auto;*/
+    /*float: left;
+    margin-left: 150px;
+    margin: auto;*/
 }
 .card:hover{
     transform: scale(.9);
@@ -364,7 +368,7 @@ h1 {
     bottom: 0px;
     color: #ffffff;
     padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 }
 .card .text p {
     font-size: 1rem;
@@ -386,7 +390,7 @@ h1 {
     margin-left: auto;
     cursor: pointer;
     transition: all .25s ease;
-    font-family: poppins;
+    /*font-family: poppins;*/
     font-size: .75rem;
     outline: none;
 }

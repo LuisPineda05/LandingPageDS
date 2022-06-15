@@ -198,6 +198,18 @@ h1 {
     height: 10vw;
     background-color: steelblue;
 }
+
+@media  screen and (max-width: 1370px){
+    #Information{
+        margin-top: 820px;
+    }
+}
+
+@media  screen and (max-width: 930px){
+    #Information{
+        margin-top: 1240px;
+    }
+}
 .parte1{
     width: 30vw;
     text-align: center;

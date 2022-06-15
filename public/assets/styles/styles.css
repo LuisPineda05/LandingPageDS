@@ -1,6 +1,7 @@
+/*header styles*/
 img{
     float: left;
-    height: 46px;
+    height: 50px;
     vertical-align: center;
 }
 ul{
@@ -56,6 +57,9 @@ button{
 button:hover{
     background-color: rgba(228, 68, 68, 1);
 }
+
+/*Know us styles*/
+
 section h1.title{
     text-align: center;
     font-family: poppins;
@@ -72,6 +76,8 @@ html {
     color: #555;
     scroll-behavior: smooth !important;
 }
+
+/*Services styles*/
 
 h1 {
     font-size: 30px;

@@ -360,7 +360,7 @@ footer{
     background: #4270A2;
     height: auto;
     padding-top: 40px;
-    width: 100vw;
+    width: 100%;
     color: whitesmoke;
     font-family: Poppins;
 }

@@ -54,6 +54,10 @@ button{
     margin-bottom: 1vw;
     color: whitesmoke;
 }
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 button:hover{
     background-color: rgba(228, 68, 68, 1);
 }

@@ -310,3 +310,24 @@ h1 {
     background: #fff;
     color: #000;
 }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #4270A2;
+    height: auto;
+    padding-top: 40px;
+    width: 100vw;
+    color: whitesmoke;
+    font-family: Poppins;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction:  column;
+    text-align: center;
+}

@@ -58,11 +58,10 @@ button:hover{
     background-color: rgba(228, 68, 68, 1);
 }
 
-/*Know us styles*/
 
 section h1.title{
     text-align: center;
-    font-family: poppins;
+    /*font-family: poppins;*/
 }
 * {
     margin: 0;
@@ -72,12 +71,12 @@ section h1.title{
 }
 
 html {
-    font: normal 16px sans-serif;
+    /*font: normal 16px sans-serif;*/
     color: #555;
     scroll-behavior: smooth !important;
 }
 
-/*Services styles*/
+
 
 h1 {
     font-size: 30px;
@@ -199,23 +198,43 @@ h1 {
         bottom: 70px;
     }
 }
-#Information {
-    margin-top: 450px;
-    height: 10vw;
-    background-color: steelblue;
-}
 
+#Information {
+    /*margin-top: 450px;*/
+    border: purple solid;
+    height: 10vw;
+    background-color: #0093AB;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/*
 @media  screen and (max-width: 1370px){
     #Information{
         margin-top: 820px;
     }
 }
-
+*/
+/*
 @media  screen and (max-width: 930px){
     #Information{
         margin-top: 1240px;
     }
 }
+*/
+
+.icon{
+    width: 30vw;
+    text-align: center;
+    /*float: left;*/
+    /*margin: 0px 3px;*/
+    color: white;
+    font-size: 1.5vw;
+}
+
+/*
 .parte1{
     width: 30vw;
     text-align: center;
@@ -240,6 +259,7 @@ h1 {
     color: white;
     font-size: 1vw;
 }
+*/
 
 @media screen and (max-width: 1400px) {
     .filter {
@@ -273,23 +293,37 @@ h1 {
 
 
 
-
+.cards{
+    border: blue solid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #0093AB;
+    /*margin: auto;*/
+    /*display: inline-block;*/
+}
 
 .card{
     width: 300px;
     height: 400px;
-    background: #ffffff;
+    margin: 2vw;
+    /*background: #ffffff;*/
+    border: red solid;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
-    display: flex;
+
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+
     cursor: pointer;
     transition: all .25s ease;
     backface-visibility: hidden;
-    float: left;
-    margin-left: 150px;
+    /*float: left;*/
+    /*margin-left: 150px;*/
+    /*margin: auto;*/
 }
 .card:hover{
     transform: scale(.9);

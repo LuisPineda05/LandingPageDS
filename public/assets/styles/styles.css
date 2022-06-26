@@ -97,6 +97,15 @@ h1 {
     padding-top: 40px;
 }
 
+.filters {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
 .filter {
     width: 350px;
     height: 300px;
@@ -112,9 +121,11 @@ h1 {
     transition: all .25s ease;
     backface-visibility: hidden;
     float: left;
-    margin-left: 225px;
+    margin:2vm;
+    margin-bottom: 30px;
+    /*margin-left: 225px;
     margin-right: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;*/
 
 }
 
@@ -196,7 +207,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 1525px) {
+/*@media screen and (max-width: 1525px) {
     .filter {
         transition: all .0s ease;
         width: 300px;
@@ -209,7 +220,7 @@ h1 {
         transform: scale(1.2);
         bottom: 70px;
     }
-}
+}*/
 
 #Information {
     /*margin-top: 450px;*/
@@ -273,7 +284,7 @@ h1 {
 }
 */
 
-@media screen and (max-width: 1400px) {
+/*@media screen and (max-width: 1400px) {
     .filter {
         transition: all .0s ease;
         width: 300px;
@@ -286,9 +297,9 @@ h1 {
         transform: scale(1.2);
         bottom: 70px;
     }
-}
+}*/
 
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
     .filter {
         transition: all .0s ease;
         width: 300px;
@@ -301,7 +312,7 @@ h1 {
         transform: scale(1.2);
         bottom: 70px;
     }
-}
+}*/
 
 
 

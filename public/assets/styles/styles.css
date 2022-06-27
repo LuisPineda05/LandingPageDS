@@ -97,6 +97,15 @@ h1 {
     padding-top: 40px;
 }
 
+.filters {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
 .filter {
     width: 350px;
     height: 300px;
@@ -112,9 +121,11 @@ h1 {
     transition: all .25s ease;
     backface-visibility: hidden;
     float: left;
-    margin-left: 225px;
+    margin:2vm;
+    margin-bottom: 30px;
+    /*margin-left: 225px;
     margin-right: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;*/
 
 }
 
@@ -196,7 +207,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 1525px) {
+/*@media screen and (max-width: 1525px) {
     .filter {
         transition: all .0s ease;
         width: 300px;
@@ -209,7 +220,7 @@ h1 {
         transform: scale(1.2);
         bottom: 70px;
     }
-}
+}*/
 
 #Information {
     /*margin-top: 450px;*/
@@ -273,7 +284,7 @@ h1 {
 }
 */
 
-@media screen and (max-width: 1400px) {
+/*@media screen and (max-width: 1400px) {
     .filter {
         transition: all .0s ease;
         width: 300px;
@@ -286,9 +297,9 @@ h1 {
         transform: scale(1.2);
         bottom: 70px;
     }
-}
+}*/
 
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
     .filter {
         transition: all .0s ease;
         width: 300px;
@@ -301,7 +312,7 @@ h1 {
         transform: scale(1.2);
         bottom: 70px;
     }
-}
+}*/
 
 
 
@@ -369,10 +380,10 @@ h1 {
 .card .text{
     z-index: 30;
     position: absolute;
-    bottom: 0px;
+    bottom: 20px;
     color: #ffffff;
     padding: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
 }
 .card .text p {
     font-size: 1rem;
@@ -384,23 +395,103 @@ h1 {
     justify-content: flex-end;
     flex-direction: column;
 }
-.card .text p button {
-    padding: 7px 17px;
-    border-radius: 12px;
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    margin-top: 10px;
-    margin-left: auto;
-    cursor: pointer;
-    transition: all .25s ease;
-    /*font-family: poppins;*/
-    font-size: .75rem;
-    outline: none;
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #4270A2;
+    height: auto;
+    padding-top: 40px;
+    width: 100%;
+    color: whitesmoke;
+    font-family: Poppins;
 }
-.card .text p button:hover{
-    background: #fff;
-    color: #000;
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction:  column;
+    text-align: center;
+}
+
+.footer-content p{
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    all: unset;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+
+.socials li a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 35px;
+}
+
+.footer-menu {
+    all: unset;
+    margin-bottom: 20px;
+}
+
+.footer-menu ul {
+    all: unset;
+    display: flex;
+}
+
+.footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a{
+    color: #cfd2d6;
+    border: 1.3px solid white;
+    padding: 6px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: black;
+}
+
+
+.footer-bottom {
+    background: #29486a;
+    padding: 5px;
+    text-align: center;
+}
+.footer-bottom p{
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a{
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 footer{

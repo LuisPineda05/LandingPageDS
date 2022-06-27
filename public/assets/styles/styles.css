@@ -1,13 +1,14 @@
 /*header styles*/
-img{
+.LogoDocSeeker{
     float: left;
-    height: 50px;
+    height: 4vw;
     vertical-align: center;
 }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    height: 4vw;
     overflow: hidden;
     background-color: #0093AB;
 }
@@ -17,7 +18,9 @@ li{
 li a {
     display: block;
     color: whitesmoke;
-    padding: 14px 16px;
+    /*padding: 14px 16px;*/
+    padding: 1vw;
+    font-size: 1.5vw;
     text-decoration: none;
 }
 li a:hover {

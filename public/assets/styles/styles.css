@@ -382,8 +382,8 @@ h1 {
     position: absolute;
     bottom: 20px;
     color: #ffffff;
-    padding: 20px;
-    padding-bottom: 30px;
+    padding: 0px;
+    padding-bottom: 50px;
 }
 .card .text p {
     font-size: 1rem;

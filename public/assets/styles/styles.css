@@ -602,6 +602,7 @@ footer{
 }
 
 .footer-menu ul li a{
+    all: unset;
     color: #cfd2d6;
     border: 1.3px solid white;
     padding: 6px 15px;
@@ -631,3 +632,4 @@ footer{
     font-size: 16px;
     text-decoration: none;
 }
+
